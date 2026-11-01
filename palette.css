@@ -1,0 +1,70 @@
+/* Concrete light and charcoal: derived from the staircase photograph. */
+:root{--canvas:#202020;--ink:#f4f4ef;--body:#e9e9e4;--muted:#b8b8b2;--line:#50504c;--violet:#d4d4cd;--surface-work:#242424;--surface-panel:#2e2e2c;--surface-method:#363634;--surface-reading:#30302e;--surface-about:#292928;--surface-close:#1c1c1b}
+body{background:var(--canvas);scrollbar-color:#898982 var(--canvas)}
+::selection{background:#d4d4cd;color:#1c1c1b}
+header{background:#1c1c1bf2}
+.focus-strip{border-color:#53534e;color:#deded8}
+.focus-strip>span{color:#b3b3ad}
+.surface-work{background:var(--surface-work)}
+#work{padding-bottom:100px}
+.project-feature{background:var(--surface-panel);border-color:#565650}
+.project-intro>div>p:last-child{color:#e0e0d9}
+.project-stage{background:#1c1c1b;border-color:#565650}
+.stage-copy>.mono{color:#c4c4bb}
+.cinema-stage{background:#222220}
+.cinema-title>.serif{color:#e6e6de}
+.cinema-screens img{border-color:#64645c}
+.tool-list>a{border-color:#50504b}
+.tool-list>a:hover h3,.text-link:hover{color:#fff}
+.approach-section{margin-top:0;padding:110px 0;background:var(--surface-method);border:0}
+.workflow{background:#292927;border-color:#65655e}
+.workflow-top,.workflow-bottom,.workflow li{border-color:#62625a}
+.workflow li:before{background:#292927;border-color:#b9b9af}
+.workflow li:last-child:before{background:#deded4;border-color:#deded4}
+.surface-writing{background:var(--surface-reading);color:#e9e9e4;--muted:#c1c1b8;--line:#67675e;--violet:#deded4;color-scheme:dark}
+#writing{padding-top:105px;padding-bottom:110px}
+.surface-writing h2,.surface-writing h3{color:#f0f0e9}
+.surface-writing .section-label{color:#c1c1b8}
+.surface-writing .text-link:hover{color:#fff}
+.article{background:#373734;border-color:#67675e}
+.article:hover{background:#40403b;border-color:#a1a197}
+.article>div,.read-link{color:#c1c1b8}
+.surface-writing ::selection{background:#d4d4cd;color:#1c1c1b}
+.surface-about{background:var(--surface-about)}
+.about{padding-top:110px;padding-bottom:115px}
+.experience>div{border-color:#74746c}
+.experience>div:before{background:#c2c2b7}
+.surface-closing,.surface-footer{background:var(--surface-close)}
+.closing{border-top:0;padding-top:85px;padding-bottom:95px}
+footer{border-color:#55554e}
+.button{border-color:#88887f}
+.button:hover{border-color:#f4f4ef;background:#ffffff0c}
+dialog{background:#30302d;border-color:#85857a;color:#edede6;--muted:#c7c7bd;--violet:#ededdf}
+dialog::backdrop{background:#151513bb}
+.close{background:#252523;border-color:#8a8a7f}
+.close:hover{background:#46463f}
+.photo-credit{padding-bottom:28px;margin-bottom:0}
+@media(max-width:760px){#work{padding-bottom:65px}.approach-section{padding:70px 0}#writing{padding-top:70px;padding-bottom:75px}.about{padding-top:75px;padding-bottom:75px}.closing{padding-top:60px;padding-bottom:65px}}
+
+@media(max-width:760px){.stage-copy>.mono,.image-credit,.photo-credit{font-size:11px}}
+
+
+/* The question is the statement; the English line is its quiet signature. */
+.hero h1.hero-quote{font-size:clamp(42px,4.15vw,60px);line-height:1.24;letter-spacing:-.03em;margin-bottom:22px}
+.hero-quote>span{display:block}
+.hero-motto{font-family:Inter,"Segoe UI",sans-serif;font-size:12px;font-weight:400;letter-spacing:.13em;line-height:1.7;color:#deded8;margin:0 0 31px}
+.hero .hero-description{font-size:15px;line-height:1.9}
+@media(max-width:760px){.hero h1.hero-quote{font-size:clamp(29px,7.8vw,43px);line-height:1.32;letter-spacing:-.025em;margin-bottom:19px}.hero-motto{font-size:11px;letter-spacing:.1em;margin-bottom:28px}.hero .hero-description{font-size:14px}}
+
+.project-intro>div{min-width:0}
+.product-url{display:flex;flex-direction:column;gap:5px;max-width:100%;margin-top:20px;font-size:14px;line-height:1.7}
+.product-address{font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.product-url:hover>span:first-child{text-decoration:underline;text-underline-offset:4px}
+.product-url:hover .product-address{color:var(--body)}
+
+.experience{padding-left:148px}
+.experience .experience-date{position:absolute;left:-148px;top:24px;width:126px;display:block;text-align:right;font-size:12px;font-weight:400;line-height:1.6;letter-spacing:0;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
+@media(min-width:761px) and (max-width:1050px){.experience{padding-left:120px}.experience .experience-date{left:-120px;width:103px;font-size:11px}}
+@media(max-width:760px){.experience{padding-left:110px}.experience .experience-date{left:-110px;width:94px;font-size:11px;top:24px}}
+
+.experience .experience-season{display:block;font-size:11px;line-height:1.8;color:var(--muted)}
