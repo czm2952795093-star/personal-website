@@ -1,6 +1,12 @@
 # 个人网站
 
+GitHub 仓库：https://github.com/czm2952795093-star/personal-website
+
 Ziven 的个人网站，采用三号方案最终版。展示 AI 产品作品、实践方法、深度文章与实习经历。
+
+## 在线访问
+
+🌐 线上地址：https://se2r4cqrsivgd0rtradej.apigateway-cn-beijing.volceapi.com/
 
 ## 本地预览
 
@@ -36,3 +42,4 @@ https://unsplash.com/photos/grayscale-photo-of-concrete-staircase-b5YlVPjRH3A
 - 余帧 Afterglow：https://github.com/czm2952795093-star/Afterglow
 
 第三方摄影遵循其原始许可；本仓库不对第三方素材另行授予许可。
+
